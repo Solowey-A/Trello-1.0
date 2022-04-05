@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  resize: none;
+}
+body {
+  font-family: sans-serif;
+}
+
+img {
+  vertical-align: middle;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  background-color: #0078c1;
+  height: 100vh;
+}
+
+.page-container {
+  padding: 45px;
+  box-sizing: border-box;
+}
+
+.control-button {
+  height: 20px;
+  width: 20px;
+  padding: 3px;
+  cursor: pointer;
+
+  &-add-list {
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    max-width: 35px;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  &-more {
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    line-height: 0;
+
+    span {
+      height: 3px;
+      padding-bottom: 15px;
+    }
+  }
+  &-add-card {
+    border-radius: 3px;
+    border: none;
+    height: unset;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img {
+      width: 15px;
+      margin-right: 10px;
+    }
+  }
+
+  &-remove-card {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}

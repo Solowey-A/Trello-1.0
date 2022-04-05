@@ -1,0 +1,21 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+}
+.trello-list {
+  background-color: #fff;
+  border-radius: 3px;
+  max-width: 300px;
+  width: 100%;
+  padding: 8px;
+  height: 100%;
+  margin-right: 8px;
+
+  &-headline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+}

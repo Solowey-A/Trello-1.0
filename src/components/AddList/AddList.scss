@@ -1,0 +1,49 @@
+.add-list{
+  position: relative;
+  width: 100%;
+
+  &__popup {
+    width: 300px;
+    height: 180px;
+    background: #e2e4e6;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px 8px 0 0 ;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &-text-field {
+      width: 100%;
+      background: #fff;
+      border: 1px solid #efefef;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 8px 10px;
+      margin-bottom: 10px;
+    }
+
+    .button-accept {
+      background-color: #0078c1;
+      border-radius: 4px;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      transition: background .3s;
+      margin: 10px 0;
+
+      &:hover {
+        background: #005e92
+      }
+
+      &:active {
+        background: #0078c1
+      }
+    }
+  }
+}

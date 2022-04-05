@@ -1,0 +1,38 @@
+.App {
+  background-color: #0078c1;
+  height: 100vh;
+
+  &-header {
+    background-color: #0065a4;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo {
+    max-width: 80px;
+  }
+
+  &-boards-button, &-login-button {
+    border: none;
+    background-color: #0488dc;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    img {
+      max-width: 30px;
+    }
+
+    &:hover {
+      background-color: #037cc4;
+    }
+  }
+}
